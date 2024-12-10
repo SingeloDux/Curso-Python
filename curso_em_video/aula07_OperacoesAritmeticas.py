@@ -6,6 +6,12 @@ Operadores Aritmeticos e sua ordem de precedencia
 4 - Adicao +, Subtracao -
 
 Uso: Operando1 Operador Operando2 Atribuicao Resultado
+
+Alinhamento:
+> Direita
+< Esquerda
+^ Centralizado
+=^ centralizado preenchido com caracteres = se definido quantidade de espacos Ex: {:=^20}
 '''
 n1 = int(input('Digite o valor um: '))
 n2 = int(input('Digite o valor dois: '))
