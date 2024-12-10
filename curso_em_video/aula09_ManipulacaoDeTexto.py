@@ -1,10 +1,8 @@
-# Frase = 'String = Cadeia de Text0'
+frase = 'Curso Basico de Pyth0n'
+print(frase)
 
-# Fatiamento de string: Varialvel+Indice ou Range Ex: 
-
-frase = 'Curso Basico de Python'
-print('Fatiamento de string: Varialvel+Indice ou Range')
-print('Frase: ', frase)
+print('FATIAMENTO DE STRINGS: Var[index:range:saltos]')
+print('*'*20 +'\n')
 print('frase[3] pega o 3o char: ', frase[3])
 print('frase[3:15] peaga chars de 3 a 14: ', frase[3:15])
 print('frase[:15] pega de 0 a 14: ', frase[:15])
@@ -13,17 +11,37 @@ print('frase[5::3] pega de 3 ate o final, pulando de 3 em 3: ', frase[5::3])
 print('frase[5:15:3] pega de 3 ate 14 pulando de 3 em 3: ', frase[5:15:3])
 print('frase[::3] salto de 3 em 3: ', frase[::3])
 
-# Analise: 
-# Tamanho da frase: len(frase)
-# Contador de char: frase.count('a') ou frase.count('a', 0, 13)-contagem c/ fatiamento de 0 a 12
-# Localizar: frase.find('de') se retornar -1 significa que nao existe // 'Cadeia' in frase - retorna true or false
+print('*'*20 +'\n')
+print('ANALISE DE STRINGS')
+print('Tamanho/Length da frase  : ', len(frase))
+print('Contagem de todos os <o> : ', frase.count('o'))
+print('Contagem c/ fatiamento 0-12: ',frase.count('o', 0, 13))
+print('Localizar trecho na frase: ', frase.find('de'))
+print('Localizar trecho inexistente: ', frase.find('Cyber'))
+print('Curso' in frase)
+print('Android' in frase)
 
-# Transformacao
-# Replace: frase.replace('Text0', 'Texto')
-# Maiusculas, Minusculas: frase.upper(), frase.lower() - substitui o que nao esta de acordo com o metodo
-# Capitalizar: frase.capitalize() - Apenas a primeira letra da frase fica maiuscula
-# Title: frase.title() - Faz capitalize de todas as primeiras letras apos os espacos
-# STRIP: frase.strip() - remove os espacos excessivos no inicio e no final da string | ao usar rstrip ou lstrip, removemos apenas os espacos da direita ou esquerda.
-# Divisao: frase.split() - Divide a frase em palavras apos os espacos, criando uma lista de strings
-# Juncao: '-'.join(frase) - Junta strings adicionando o caratere informado na funcao
 
+print('*'*20 +'\n')
+print('TRANSFORMACAO DE STRINGS')
+print('Fazendo REPLACE de  Pyth0n: ', frase.replace('Pyth0n', 'Phyton') )
+
+frase2 = '  Curso Basico de Pyth0n  '
+print('NOVA FRASE:', frase2)
+print('Removendo espacos c/ STRIP:', frase2.strip())
+print('Removendo espacos c LSTRIP:', frase2.lstrip())
+print('Removendo espacos c RSTRIP:', frase2.rstrip())
+print('Aplicando o UPPER na frase: ', frase.upper())
+print('Aplicando o LOWER na frase: ', frase.lower())
+print('Aplicando o LOWER na frase: ', frase.lower())
+print('Aplicando o CAPITALIZE ...:', frase.capitalize())
+print('Aplicando o TITLE na frase:', frase.title())
+print('Dividindo a frase c/ SPLIT: ', frase.split())
+print('Juntando a frase com JOIN : ','-'.join(frase))
+
+print("""
+The Brown Fox,
+Jumps over the white rabbit
+And, I forgot The Font Story Installation
+But Now We Know How To Write Paragraphs
+""")
