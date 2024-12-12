@@ -20,4 +20,3 @@ print('{} x {:2} = {}' .format(num, 10, num*10))
 print('{} x {:2} = {}' .format(num, 11, num*11))
 print('{} x {:2} = {}' .format(num, 12, num*12))
 print('-'*12)
-3

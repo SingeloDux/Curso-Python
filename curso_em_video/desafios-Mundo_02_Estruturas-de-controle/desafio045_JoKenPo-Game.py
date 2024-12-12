@@ -1,5 +1,5 @@
 # Crie um programa que faça o computador jogar Jokenpô com você.
-from asyncio import sleep
+from time import sleep
 from random import randint
 
 print('{:=^50}' .format('\033[1;34mGAME: Pedra Papel e Tesoura\033[m\n'))
