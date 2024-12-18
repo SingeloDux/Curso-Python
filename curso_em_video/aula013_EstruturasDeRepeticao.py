@@ -1,3 +1,4 @@
+# Estrutura de repeticao com variavel de controle
 # Lacos, Repeticoes ou Iteracoes
 
 # Contagem Normal Usando For
