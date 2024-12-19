@@ -11,3 +11,5 @@ while num != 999:
         i +=1
 
 print('\nVoce digitou {} numeros e a soma entre eles e {}! ' .format(i, soma))
+
+# Na aula 15 usou-se outro metodo, loop infinito SEM o contador
